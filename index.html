@@ -3,27 +3,35 @@
   <head>
     <meta charset="utf-8">
     <title>Akan Names</title>
+   <link rel="stylesheet" type="text/css" href="./css/styles.css"
+
+
   </head>
   <body>
+ <div>
 <h1>know your Akan name</h1>
 
+
   <h4><strong>Choose Birthdate</strong></h4>
-  <form id="userdetails" action="index.html" method="post">
-  Birthdate:
-  <input type="date">
-
-  Gender:
-  <select>
-
+  <form id="userdetails" onsubmit="validateForm()">
+<input type="date" id="date" name="date">
+  Gender
+   <select>
      <option value="male">Male</option>
 
      <option value="female">Female</option>
 
    </select>
 
+   <!-- this is the code for the button that will submit the gender to evaluate the Akan Name -->
+   <button type="submit" >submit</button>
 
-
+<img src="images/images.jpg" alt=""
 </form>
+
+</div>
+
+<script type="text/javascript" src="index.js"></script>
 
 
   </body>
